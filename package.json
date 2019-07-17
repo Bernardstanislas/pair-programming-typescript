@@ -1,0 +1,20 @@
+{
+  "name": "pair-prog-typescript",
+  "version": "1.0.0",
+  "description": "Pair programming exercise",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.13.0",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  }
+}

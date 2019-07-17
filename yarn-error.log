@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/sammy/.nvm/versions/node/v8.15.1/bin/node /usr/local/bin/yarn init
+
+PATH: 
+  /Users/sammy/.nvm/versions/node/v8.15.1/bin:/Users/sammy/Downloads/google-cloud-sdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Users/sammy/Library/Android/sdk/emulator:/Users/sammy/Library/Android/sdk/tools:/Users/sammy/Library/Android/sdk/tools/bin:/Users/sammy/Library/Android/sdk/platform-tools:/usr/local/opt/fzf/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  8.15.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:125801:13)
+      at emitNone (events.js:106:13)
+      at Interface.emit (events.js:208:7)
+      at Interface._ttyWrite (readline.js:774:16)
+      at ReadStream.onkeypress (readline.js:158:10)
+      at emitTwo (events.js:126:13)
+      at ReadStream.emit (events.js:214:7)
+      at emitKeys (internal/readline.js:420:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1010:36)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
