@@ -1,10 +1,10 @@
-import  {Bowling} from './bowling'
+import {Bowling} from "./bowling";
 
-describe('Bowling', () => {
-  it('handles a very boring game', () => {
+describe("Bowling", () => {
+  it("handles a very boring game", () => {
     const bowling = new Bowling();
 
-    for(let i = 0; i<20; i++) {
+    for (let i = 0; i < 20; i++) {
       bowling.roll(0);
     }
 

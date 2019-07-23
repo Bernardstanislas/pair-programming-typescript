@@ -1,17 +1,8 @@
-export const sum
-  = (...a: number[]) =>
-    a.reduce((acc, val, croute) => acc + val, 0);
-
 export class Bowling {
-  constructor() {
+    public roll(pins: number) {
+    }
 
-  }
+    public getScore() {
 
-  roll(pins: number) {
-
-  }
-
-  getScore() {
-
-  }
+    }
 }
